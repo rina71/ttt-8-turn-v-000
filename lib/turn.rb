@@ -1,6 +1,6 @@
 board = [" "," "," "," "," "," "," "," "," "]
 def display_board(board)
-  
+
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -11,7 +11,7 @@ end
 
 def input_to_index(input)
   index = input.to_i - 1
-  
+
 end
 
 def valid_move?(board, index)
@@ -21,7 +21,7 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  
+
   if board[index] == " "
     return false
   end
@@ -37,12 +37,12 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   while valid_move?(board,index) == true
-    
+
     move(board, index, value = "X")
     display_board
   else
     puts "Please enter 1-9:"
-    
+
   end
 
 end

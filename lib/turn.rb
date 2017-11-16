@@ -39,7 +39,7 @@ def turn(board)
   until valid_move?(board,index) == true
 puts "Please enter 1-9:"
     move(board, index, value = "X")
-    display_board
+    display_board(board)
 
 
 

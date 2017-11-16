@@ -41,7 +41,6 @@ puts "Please enter 1-9:"
 valid_move?(board, index) += 1
     move(board, index, value = "X")
     display_board(board)
-end
 
   end
 

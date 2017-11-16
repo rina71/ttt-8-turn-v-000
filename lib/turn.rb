@@ -40,8 +40,8 @@ def turn(board)
 puts "Please enter 1-9:"
     move(board, index, value = "X")
     display_board
-  
-    
+
+
 
   end
 

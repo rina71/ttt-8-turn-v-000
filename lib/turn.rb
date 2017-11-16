@@ -42,7 +42,7 @@ index = input_to_index(input)
     display_board
   else
     puts "Please enter 1-9:"
-    valid_move? += false
-
+  
+end
 end
 end
